@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.outer{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  width: 90%;
+  padding: 0px;
+  font-family: League spartan;
+}
+.top-left{
+/* Add the first SVG as the background image */
+background-image: url('images/bg-pattern-top-mobile.svg');
+/* Position the SVG at the top right */
+position: absolute;
+top: 0;
+left: 0;
+/* Set the size of the SVG */
+width: 100%; /* Adjust as needed */
+height: 30%; /* Adjust as needed */
+background-size: 100% 100%;
+/* Do not repeat the image */
+background-repeat: no-repeat;
+}
+
+.bottom-right {
+/* Add the second SVG as the background image */
+background-image: url('images/bg-pattern-bottom-mobile.svg');
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+background-size: 100% 100%;
+/* Set the size of the SVG */
+width: 100%; /* Adjust as needed */
+height: 30%; /* Adjust as needed */
+
+/* Do not repeat the image */
+background-repeat: no-repeat;
+}
+.top-section{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.outer{
+  padding-top: 60px;
+}
+.header{
+  text-align: center;
+  font-size: 30px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: hsl(300, 43%, 22%);
+}
+.abouts{
+  text-align: center;
+  width: 200px;
+  align-self: center;
+}
+.about{
+  line-height: 22px;
+  font-size: 15px;
+  color:hsl(300, 43%, 22%) ;
+}
+.left-section{
+  margin-bottom: 20px;
+}
+.first-row,.second-row,.third-row,.fourth-row{
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 4px;
+}
+.reason{
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+  margin-top: 5px;
+}
+.bottom-section{
+  display: flex;
+  flex-direction: column;
+}
+.first-card,.second-card,.third-card{
+  background-color: hsl(300, 43%, 22%);
+  margin-bottom: 20px;
+  padding: 25px 20px;
+  color: white;
+  border-radius: 8px;
+}
+.user-img{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+.profile-picture{
+  margin-right: 20px;
+}
+.user-name{
+  font-weight: bold;
+}
+.card-profile{
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.about{
+  display: flex;
+  justify-content: center;
+}
+.inner{
+  width: 280px;
+  text-align: center;
+}
+.status{
+  color: hsl(333, 80%, 67%);
+  margin-top: 5px;
+}
+.Review{
+  line-height: 24px;
+}
+.attribution{
+  font-family: League Spartan;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  bottom: 10px;
+}
+.attribution a{
+  text-decoration: none;
+  color: black;
+}
+@media(min-width:717px){
+  .Review{
+    font-size: 18px;
+  }
+  .top-section{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+  }
+  .left-section{
+    width: 50%;
+  }
+  .right-section{
+    width: 50%;
+  }
+  .header{
+    text-align: left;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: normal;
+    color: hsl(300, 43%, 22%);
+  }
+  .abouts{
+    text-align: left;
+    width: 350px;
+    align-self: normal;
+  }
+  .about{
+    justify-content: normal;
+  }
+  .inner{
+    text-align: left;
+    width: 450px;
+    font-size: 18px;
+  }
+  .first-row,.second-row,.third-row{
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+}
+.second-row{
+  position: relative;
+  left: 40px;
+}
+.third-row{
+  position: relative;
+  left: 80px;
+}
+.stars{
+  margin-right: 20px;
+}
+.bottom-section{
+  display: flex;
+  flex-direction: row;
+}
+.first-card,.second-card,.third-card{
+  background-color: hsl(300, 43%, 22%);
+  margin-bottom: 0px;
+  padding: 30px 22px;
+  color: white;
+  border-radius: 8px;
+  margin-right: 20px;
+  height: auto;
+}
+.bottom-section{
+  position: relative;
+}
+.second-card{
+  position: relative;
+  top: 20px;
+}
+.third-card{
+  position: relative;
+  top: 40px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+.top-left{
+  /* Add the first SVG as the background image */
+  background-image: url('images/bg-pattern-top-desktop.svg');
+  /* Position the SVG at the top right */
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Set the size of the SVG */
+  width: 50%; /* Adjust as needed */
+  height: 30%; /* Adjust as needed */
+  background-size: 100% 100%;
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+  }
+  
+  .bottom-right {
+  /* Add the second SVG as the background image */
+  background-image: url('images/bg-pattern-bottom-desktop.svg');
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: 100% 100%;
+  /* Set the size of the SVG */
+  width: 100%; /* Adjust as needed */
+  height: 75%; /* Adjust as needed */
+  
+  /* Do not repeat the image */
+  background-repeat: no-repeat;
+  }
+  .outer{
+    padding: 60px;
+    width: 80%;
+  }
+}
