@@ -156,6 +156,7 @@ background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     text-align: left;
+    margin-bottom: 30px;
   }
   .left-section{
     width: 50%;
